@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra website</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+    
+    
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Cdn Link Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+     <!---navbar-->
+     <nav class="bg-white p-1 m-3 flex items-center justify-between" style=" z-index: 1;">
+        <h1 class="text-3xl font-bold">Nostra</h1>
+        <ul class="flex gap-20 ">
+            <li>
+                <a class="hover:underline hover:text-gray-300" href="index.html"> Home</a>
+            </li>
+            <li>
+                <a class="hover:underline  hover:text-gray-300" href="#new-arrival">New Arrival</a>
+            </li>
+            <li>
+                <a class="hover:underline  hover:text-gray-300" href="#most-wanted">Most Wanted</a>
+            </li>
+            <li>
+                <a class="hover:underline  hover:text-gray-300" href="collection.html">Collection</a>
+            </li>
+            <li>
+                <a class="hover:underline  hover:text-gray-300" href="#">contact us</a>
+            </li>
+        </ul>
+
+    </nav>
+   
+
+        <div class="container">
+
+
+
+  <div class="contact-form">
+    <h2>Contact Us</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  </div>
+  <!---input letter-->
+  <div class="p-6 m-5 text-center">
+    <h2 class="text-5xl font-bold p-3">Join Our News Letter</h2>
+    <p class="text-3xl p-3 mb-7">Signup for our email news paper to get exclusive discount, updates and more.</p>
+    <div>
+        <input type="text" style="width: 60%; border: 3px solid black; padding: 5px;">
+    </div>
+    <div>
+        <button class="p-4 bg-black text-white font-bold mt-4 ">Subscribe
+            <i class="fa-solid fa-arrow-right" style="color: white"></i>
+        </button>
+    </div>
+</div>
+<!---footer-->
+<div class="bg-gray-600 text-white p-5">
+    <div class="m-4" >
+        <h2 class="font-bold text-5xl ">Nostra</h2>
+        <p class="text-3xl font-medium mt-4 ">The Standard chunk of Lorem ipsum
+            used since the 1500s is reprodused
+            below for those interest</p>
+        <div class="mt-4 flex gap-7">
+            <i class="icon fa-brands fa-instagram" style="color: #ffffff;"></i>
+            <i class="icon fa-brands fa-twitter" style="color: #ffffff;"></i>
+            <i class="icon fa-brands fa-facebook" style="color: #ffffff;"></i>
+        </div>
+        <div class="mt-4 text-3xl font-medium">
+            <p>@ 2025 Nostra.com </p>
+        </div>
+    </div>
+    
+    <script src="./contact.js"></script>
+</body>
+</html>

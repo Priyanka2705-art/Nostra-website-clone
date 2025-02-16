@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra website</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!--- font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+</head>
+<body>
+    <!---offerbar-->
+    <div class="bg-gray-800 text-white p-3 text-center text-3xl">
+        <p>Sign Up and <b>GET 20% OFF</b> for your first Order
+        <i id="offer-close" style="margin-left: 10%; cursor: pointer;" class="fa-solid fa-xmark"></i>
+        </p>
+    </div>
+
+     <!---navbar-->
+     <nav class="bg-white p-3 m-5 flex items-center justify-between sm:">
+        <h1 class="text-3xl font-bold">Nostra</h1>
+        <ul class="flex gap-20 ">
+            <li>
+                <a class="hover:underline hover:text-gray-300" href="index.html"> Home</a>
+            </li>
+            <li>
+                <a class="hover:underline  hover:text-gray-300" href="#">Collection</a>
+            </li>
+            <li>
+                <a class="hover:underline  hover:text-gray-300" href="#">contact us</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<div class="container pl-15 pr-15">
+    <div class="divide-section flex">
+        <!--side navbar-->
+    <div class="p-4" style="flex-basis:25%;position:relative; font-size: 2vw">
+        <h3 class="font-bold p-4 mt-3">Occasion</h3>
+        <div class="">
+            <input type="checkbox" name="summer" id="summer"> Summer  <br>
+            <input type="checkbox" name="Party" id="winter"> Party <br>
+            <input type="checkbox" name="Beach" id="beach"> Beach  <br>
+        </div>
+        <h3 class="font-bold p-4 mt-3">Colours</h3>
+        <div class="">
+            <input type="checkbox" name="Red" id="red"> Red <br>
+            <input type="checkbox" name="Blue" id="Blue"> Blue <br>
+            <input type="checkbox" name="white" id="white"> White <br>
+            <input type="checkbox" name="Green" id="green"> Green <br>
+        </div>
+        <h3 class="font-bold p-4 mt-3">Arrivals</h3>
+        <div class="">
+            <input type="checkbox" name="New" id="new"> New <br> 
+            <input type="checkbox" name="Old" id="Old"> Old <br>
+        </div>
+        <hr style="border: none; border-left: 2px solid black; height:100%; position: absolute; right:0%; top: 0px; margin: 0 20px;">
+    </div>
+    <!---product images-->
+    <div style="flex-basis: 75%; position: relative; justify-content: center;" >
+
+        <div class="p-5 mb-6" style="padding: 10px; border: 1px solid black;border-radius:10px; display: flex; align-items: center; width: 95%;">
+            <input type="text" value="search" style="border:none; width: 100%;background-color: transparent; " >
+            <i class="fa-solid fa-magnifying-glass" style="color: #0d0d0d;"></i>
+            </div>
+        <div>
+            <div class="grid grid-cols-3 gap-4 mb-10 " >
+            <div>
+                <img src="images/f1.jpg" style="width: 20vw;" >
+                <h1 class="text-3xl font-bold">Floral Summer Shirt</h1>
+                <p>₹220</p>
+            </div>
+        
+            <div>
+                <img src="images/f7.jpg" style="width: 20vw;">
+                <h1 class="text-3xl font-bold">Floral Summer Green</h1>
+                <p>₹299</p>
+            </div>
+        
+            <div>
+                <img src="images/f10.jpg" style="width: 20vw;">
+                <h1 class="text-3xl font-bold">Floral Party Shirt</h1>
+                <p>₹360</p>
+            </div>
+            <div>
+                <img src="images/f6.jpg" style="width: 20vw;" >
+                <h1 class="text-3xl font-bold" >Beach Floral Shirt</h1>
+                <p>₹699</p>
+            </div>
+            <div>
+                <img src="images/f1.jpg" style="width: 20vw;" >
+                <h1 class="text-3xl font-bold">Floral Summer Shirt</h1>
+                <p>₹899</p>
+            </div>
+            <div>
+                <img src="images/f5.jpg"style="width: 20vw;" >
+                <h1 class="text-3xl font-bold">Beach Shirt</h1>
+                <p>₹299</p>
+            </div>
+            <div>
+                <img src="images/f6.jpg"style="width: 20vw;" >
+                <h1 class="text-3xl font-bold">Floral Summer Shirt</h1>
+                <p>280</p>
+            </div>
+            <div>
+                <img src="images/f7.jpg"style="width: 20vw; ">
+                <h1 class="text-3xl font-bold">Party Floral Shirt</h1>
+                <p>₹499</p>
+            </div>
+            <div>
+                <img src="images/f9.jpg" style="width: 20vw;">
+                <h1 class="text-3xl font-bold">Shirt Party Red</h1>
+                <p>₹600</p>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+    
+</div>
+
+<script src="collection.js"></script>
+    
+</body>
+</html>
